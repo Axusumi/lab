@@ -1,4 +1,4 @@
 <?php 
-      $flag = "".file_get_contents("inex.php")."";
+      $flag = file_get_contents('index.php');
       echo $flag;
 ?>
